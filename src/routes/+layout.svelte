@@ -102,7 +102,7 @@
         <img src="/images/logo-prof-citron.svg" alt="Logo Prof Citron" class="h-[50px]">
     </a>
     {#if responsiveMenu}
-    <ul class="absolute origin-top-left top-full left-[-2px] right-[-2px] bg-white border-2 md:border-0 md:static md:flex gap-8" transition:fly={{ y: -200, duration: 800 }}>
+    <ul class="absolute origin-top-left top-full left-[-2px] right-[-2px] bg-white border-2 md:border-0 md:static md:flex gap-8" transition:fly|global={{ y: -200, duration: 800 }}>
         <li class="px-4 py-2 md:p-0">
             <a href="/">accueil</a>
         </li>

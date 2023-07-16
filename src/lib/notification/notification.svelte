@@ -15,7 +15,7 @@
 </script>
 
 {#if !fadeOut}
-<div transition:fly|local="{{ x: 200, duration: 1500 }}" class="max-w-[500px] mx-auto fixed bottom-12 right-6 mx-2 p-5 custom-shadow {type === 'success' ? 'bg-french-sky-blue text-inky-black' : 'bg-ribbon-red text-white'}">
+<div transition:fly="{{ x: 200, duration: 1500 }}" class="max-w-[500px] mx-auto fixed bottom-12 right-6 mx-2 p-5 custom-shadow {type === 'success' ? 'bg-french-sky-blue text-inky-black' : 'bg-ribbon-red text-white'}">
     <p class="text-center">
         {message}
     </p>
